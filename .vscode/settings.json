@@ -2,6 +2,16 @@
     "cmake.sourceDirectory": "C:/Users/eqcn/Documents/Embedded/STM32CubeIDE/H7BOOT/CMake",
     "cmake.projectName": "H7BOOT",
     "files.associations": {
-        "cstdint": "cpp"
+        "cstdint": "cpp",
+        "bootloader_update.h": "c",
+        "usbh_core.h": "c",
+        "app.h": "c",
+        "stm32h7xx_hal.h": "c",
+        "stdint.h": "c",
+        "stm32h7xx_hal_conf.h": "c",
+        "fatfs.h": "c",
+        "main.h": "c",
+        "bootloader.h": "c",
+        "usb_host.h": "c"
     }
 }

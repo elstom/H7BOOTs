@@ -1,12 +1,12 @@
 # bootloader/CMakeLists.txt
 cmake_minimum_required(VERSION 3.22)
 
-project(BootloaderModule)
+project(BootModule)
 
 enable_language(C ASM)
 
 set(SOURCES
-    ${CMAKE_CURRENT_SOURCE_DIR}/bootloader_update.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/bootloader.c
 )
 
 set(INCLUDES
