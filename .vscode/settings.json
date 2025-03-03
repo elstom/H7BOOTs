@@ -12,6 +12,7 @@
         "fatfs.h": "c",
         "main.h": "c",
         "bootloader.h": "c",
-        "usb_host.h": "c"
+        "usb_host.h": "c",
+        "bsp.h": "c"
     }
 }

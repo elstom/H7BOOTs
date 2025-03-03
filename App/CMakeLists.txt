@@ -18,7 +18,9 @@ add_library(${PROJECT_NAME} STATIC ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${INCLUDES})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC stm32cubemx)
+target_link_libraries(${PROJECT_NAME} PUBLIC 
+    stm32cubemx
+)
 
 target_compile_definitions(${PROJECT_NAME} PUBLIC
     USE_HAL_DRIVER

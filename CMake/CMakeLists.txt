@@ -51,7 +51,7 @@ add_subdirectory(cmake/stm32cubemx)
 
 # Add USER define app sources
 add_subdirectory(${CMAKE_SOURCE_DIR}/../App ${CMAKE_BINARY_DIR}/App)
-# add_subdirectory(${CMAKE_SOURCE_DIR}/../Drivers/Bsp ${CMAKE_BINARY_DIR}/Bsp)
+add_subdirectory(${CMAKE_SOURCE_DIR}/../Drivers/Bsp ${CMAKE_BINARY_DIR}/Drivers/Bsp)
 # add_subdirectory(${CMAKE_SOURCE_DIR}/../Boot ${CMAKE_BINARY_DIR}/Boot)
 
 # Link directories setup
@@ -80,6 +80,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
     # Add user defined libraries
     AppModule
-    # BspModule
+    BspModule
     # BootModule
 )
